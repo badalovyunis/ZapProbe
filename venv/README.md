@@ -1,4 +1,4 @@
-# 🔒 Simple Security Scanner
+# 🔒 ZapProbe Security Scanner
 
 Educational tool for learning about web vulnerabilities (SQLi & XSS detection).
 
@@ -22,17 +22,4 @@ The developer is NOT responsible for misuse of this tool.
 
 ## 🚀 Installation
 
-```bash
-# Clone repository
-git clone https://github.com/username/simple-security-scanner.git
-cd simple-security-scanner
-
-# Create virtual environment
-python -m venv venv
-
-# Activate (Windows)
-venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
+Very soon
