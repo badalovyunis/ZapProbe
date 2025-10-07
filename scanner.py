@@ -143,10 +143,12 @@ class SecurityScanner:
 
 
 def main():
-    """Main function"""
+    """Main entry point for CLI"""
     parser = argparse.ArgumentParser(
-        description='Simple Security Scanner - Educational Tool',
-        epilog='Use responsibly and only on authorized targets!'
+        prog='zapprobe',
+        description='ZapProbe - Educational Web Vulnerability Scanner',
+        epilog='Use responsibly and only on authorized targets!',
+        formatter_class=argparse.RawDescriptionHelpFormatter
     )
     
     parser.add_argument(
@@ -167,6 +169,12 @@ def main():
         type=int,
         default=10,
         help='Request timeout in seconds (default: 10)'
+    )
+    
+    parser.add_argument(
+        '-v', '--version',
+        action='version',
+        version='%(prog)s 0.1.0'
     )
     
     args = parser.parse_args()
