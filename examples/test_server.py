@@ -110,7 +110,7 @@ def init_db():
         (1, 'admin', 'admin@example.com', 'administrator'),
         (2, 'user1', 'user1@example.com', 'user'),
         (3, 'user2', 'user2@example.com', 'user'),
-        (4, 'guest', 'guest@example.com', 'guest'),
+        (4, 'guest', 'guest@example.com', 'guest'), 
     ]
     
     cursor.executemany('INSERT INTO users VALUES (?, ?, ?, ?)', users)

@@ -18,8 +18,3 @@ An educational web vulnerability scanner for detecting SQL Injection and Cross-S
 - ❌ Use for malicious purposes is **PROHIBITED**
 
 **⚖️ The developer is NOT responsible for misuse of this tool. Users are solely responsible for all legal consequences.**
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 3ebf224 (New files have been installed for a more powerful upgrade)
