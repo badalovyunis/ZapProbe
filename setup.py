@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="zapprobe",
     version="0.1.0",
-    author="Your Name",
+    author="badyus",
     author_email="your.email@example.com",
     description="Educational web vulnerability scanner for SQL Injection and XSS detection",
     long_description=long_description,
