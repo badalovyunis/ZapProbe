@@ -13,6 +13,10 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/username/simple-security-scanner",
     packages=find_packages(),
+    # scanner.py is a top-level module (not inside a package). Ensure it is
+    # included in the installed distribution so the console_scripts entry
+    # point `zapprobe=scanner:main` works.
+    py_modules=["scanner"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",

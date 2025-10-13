@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: zapprobe
+Version: 0.1.0
+Summary: Educational web vulnerability scanner for SQL Injection and XSS detection
+Home-page: https://github.com/username/simple-security-scanner
+Author: badyus
+Author-email: your.email@example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Security
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests>=2.31.0
+Requires-Dist: beautifulsoup4>=4.12.2
+Requires-Dist: colorama>=0.4.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# ZapProbe Security Scanner
+
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Status](https://img.shields.io/badge/status-in%20development-yellow.svg)
+
+An educational web vulnerability scanner for detecting SQL Injection and Cross-Site Scripting (XSS) vulnerabilities.
+
+## ⚠️ LEGAL DISCLAIMER
+
+**THIS TOOL IS FOR EDUCATIONAL PURPOSES ONLY!**
+
+- ✅ Use **ONLY** on your own systems
+- ✅ Use **ONLY** in authorized test environments
+- ✅ Obtain **written permission** before testing any server
+- ❌ Unauthorized testing is **ILLEGAL**
+- ❌ **NEVER** use on real websites without permission
+- ❌ Use for malicious purposes is **PROHIBITED**
+
+**⚖️ The developer is NOT responsible for misuse of this tool. Users are solely responsible for all legal consequences.**
