@@ -49,3 +49,8 @@ class Colors:
     def info(text):
         """Print info message"""
         return f"{Colors.INFO}[i] {text}{Colors.RESET}"
+    
+    @staticmethod
+    def debug(text):
+        """Print debug message"""
+        return f"{Colors.MAGENTA}[D] {text}{Colors.RESET}"
