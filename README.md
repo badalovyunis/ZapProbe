@@ -397,3 +397,10 @@ zapprobe http://localhost:5000/search?id=1 -o report.json &
 --gui                        Launch GUI mode
 -v, --version                Show version
 ```
+
+## ⚠️ Educational Purpose Only
+
+This tool was developed strictly for educational and research purposes.  
+It aims to help developers and security enthusiasts understand the mechanics of SQL Injection and Cross-Site Scripting (XSS) vulnerabilities.
+
+Do not use this tool on systems without explicit permission.
