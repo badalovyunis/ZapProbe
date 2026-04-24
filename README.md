@@ -381,6 +381,10 @@ zapprobe http://localhost:5000/search?id=1 -o report.json &
 - ✅ CVSS Scoring
 - ✅ Custom Delays & Timeouts
 
+## 📋 In the future
+
+- Improved payload detection engine
+
 ## 🔧 Options
 
 ```
