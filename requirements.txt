@@ -2,3 +2,7 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 colorama==0.4.6
 urllib3==2.0.7
+
+# GUI support (optional)
+# Run: pip install PySimpleGUI
+# Or:  pip install -e ".[gui]"

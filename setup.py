@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="zapprobe",
-    version="0.2.0",
+    version="0.3.0",
     author="badyus",
     author_email="your.email@example.com",
     description="Educational web vulnerability scanner for SQL Injection and XSS detection",
@@ -13,10 +13,8 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/username/zapprobe",
     packages=find_packages(),
-    # scanner.py is a top-level module (not inside a package). Ensure it is
-    # included in the installed distribution so the console_scripts entry
-    # point `zapprobe=scanner:main` works.
-    py_modules=["scanner"],
+    # scanner.py ve cli_runner.py top-level modules
+    py_modules=["scanner", "cli_runner"],
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Education",
@@ -35,9 +33,13 @@ setup(
         "colorama>=0.4.6",
         "urllib3>=2.0.7",
     ],
+    extras_require={
+        'gui': ['PySimpleGUI>=4.60.0'],
+    },
     entry_points={
         "console_scripts": [
-            "zapprobe=scanner:main",
+            "zapprobe=cli_runner:main",
         ],
     },
 )
+

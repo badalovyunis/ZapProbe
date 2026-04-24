@@ -1,0 +1,8 @@
+# Shell scriptlər həmişə LF
+*.sh text eol=lf
+
+# Python fayllar LF
+*.py text eol=lf
+
+# Default text fayllar LF
+* text=auto eol=lf
