@@ -397,3 +397,8 @@ zapprobe http://localhost:5000/search?id=1 -o report.json &
 --gui                        Launch GUI mode
 -v, --version                Show version
 ```
+
+## ⚠️ Disclaimer
+
+This project is intended for educational purposes only.  
+It is designed to demonstrate how SQL Injection and Cross-Site Scripting (XSS) attacks work in controlled environments.
